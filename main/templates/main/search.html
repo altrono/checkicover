@@ -21,23 +21,23 @@
         </div>
         <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
             <a class="navbar-brand font-weight-bold display-1" href="/" >
-               <span class="text-primary  font-weight-bold">Check</span><span class="text-danger font-weight-bold">Icover</span>
+               <span class="text-primary  font-weight-bold">Checki</span><span class="text-danger font-weight-bold">Cover</span>
             </a>
             <ul class="nav-list text-center p-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Career</a>
+                    <a class="nav-link" href="{% url 'help' %}">Help</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Learn</a>
+                    <a class="nav-link" href="{% url 'inquiry' %}">Inquiry</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
+                    <a class="nav-link" href="{% url 'register' %}"><i class="fas fa-user-plus"></i> Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="{% url 'login' %}"><i class="fas fa-sign-in-alt"></i> Login</a>
                 </li>
             </ul>
         </nav>
